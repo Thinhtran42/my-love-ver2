@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #f0d9ff;
+    font-family: "Merriweather", serif;
+    color: #ff0000;
+}
+
+h1 {
+    padding-top: 5%;
+    font-family: "Sacramento", cursive;
+    font-size: 50px;
+}
+
+.box-clock {
+    margin: 5% auto;
+    background-color: #f8c8c8;
+    width: 600px;
+    height: 100px;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    right: 250px;
+    bottom: 15px;
+    font-size: 25px;
+    color: black;
+}
+
+.container {
+    margin: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.one>img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.two>img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.one {
+    top: 0;
+    left: 300px;
+}
+
+.two {
+    right: 300px;
+    top: 0;
+}
+
+.heart {
+    top: 80px;
+    right: 590px;
+    text-align: center;
+}
+
+.heart>div {
+    font-size: 40px;
+}
+
+div {
+    display: block;
+}
+
+video {
+    width: 500px;
+    height: 300px;
+    top: 300px;
+}
+
+.footer {
+    top: 350px;
+    padding-bottom: 1%;
+}
+
+@media screen and (max-width: 768px) {
+    .box-clock {
+        margin: 5% 5%;
+        width: auto;
+        height: auto;
+    }
+    .date-time {
+        margin: 5px 0;
+    }
+    .container {
+        margin: 10%;
+    }
+    .one>img,
+    .two>img {
+        width: 120px;
+        height: 120px;
+    }
+    .footer {
+        padding-bottom: 1%;
+    }
+}
